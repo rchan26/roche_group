@@ -20,7 +20,7 @@ plot(proportion_of_complete_cases(data))
 cut_off_point <- 0.8
 data <- data[,(proportion_of_complete_cases(data) > cut_off_point)]
 # now look at the data
-plot_proportion_of_complete_cases(data)
+plot(proportion_of_complete_cases(data))
 ncol(data)
 
 
